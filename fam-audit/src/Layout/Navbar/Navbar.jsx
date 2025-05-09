@@ -43,12 +43,13 @@ const Navbar = () => {
             </div>
             <div className="col-xl-10">
               <div className="container">
-                <div className="row g-2">
+                <div className="row">
                   <div className="col-xl-2"><div className="link"><Link to="/" >ANA SƏHİFƏ</Link></div></div>
                  <div className="col-xl-2">
                    <div className="nav-drop nav-drop2">
                        <div className="link">
                          <Link to="/haqqimizda">HAQQIMIZDA</Link>
+                         <br />
                         <div className="nav__dropdown">
                           <Link to="/tariximiz">Rəhbərlik</Link>
                           <Link to="/tariximiz">Lisenziyalar</Link>
