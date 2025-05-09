@@ -1,0 +1,42 @@
+#hometeqdim{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-color: white;
+    .teqdimat{
+        text-align: center;
+        h3{
+            letter-spacing: 1px;
+            color: #004460;
+        }
+    }
+  .homeicons {
+    padding-top: 30px;
+  .card-item {
+    background-color: white;
+    color: #004460;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    p{
+        font-weight: 640;
+    }
+    svg {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      transition: color 0.3s ease;
+    }
+
+    &:hover {
+      background-color: #004460;
+      color: white;
+
+      svg {
+        color: white;
+      }
+    }
+  }
+}
+
+}

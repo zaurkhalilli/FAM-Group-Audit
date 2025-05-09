@@ -51,9 +51,9 @@ const Navbar = () => {
                          <Link to="/haqqimizda">HAQQIMIZDA</Link>
                          <br />
                         <div className="nav__dropdown">
-                          <Link to="/tariximiz">Rəhbərlik</Link>
-                          <Link to="/tariximiz">Lisenziyalar</Link>
-                          <Link to="/tariximiz">Etika və Uyğunluq</Link>
+                          <Link to="/tariximiz">RƏHBƏRLİK</Link>
+                          <Link to="/tariximiz">LİSENZİYALAR</Link>
+                          <Link to="/tariximiz">ETİKA VƏ UYĞUNLUQ</Link>
                         </div>
                       </div>
                        </div>
