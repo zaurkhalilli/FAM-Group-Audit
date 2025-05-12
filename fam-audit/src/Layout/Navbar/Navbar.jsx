@@ -37,7 +37,7 @@ const Navbar = () => {
             <div className="col-xl-2">
               <div className="logo">
                 <Link to="/">
-                  <img src="https://www.famgroupaudit.az/assets/images/auditlogo.png" alt="FAM-Group-Construction-Logo" />
+                  <img src="https://www.famgroupaudit.az/assets/images/auditlogo.png" alt="FAM-Group-Audit-Logo" />
                 </Link>
               </div>
             </div>
