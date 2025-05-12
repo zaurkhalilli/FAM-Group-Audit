@@ -19,7 +19,7 @@ const Homeproyekt = () => {
             return prev;
           }
         });
-      }, 50);
+      }, 90);
       return () => clearInterval(interval);
     }
   }, [projectsCount]);
@@ -35,7 +35,7 @@ const Homeproyekt = () => {
             return prev;
           }
         });
-      }, 50);
+      }, 90);
       return () => clearInterval(interval);
     }
   }, [partnersCount]);
