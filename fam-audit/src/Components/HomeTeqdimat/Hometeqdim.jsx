@@ -1,5 +1,5 @@
 import React from 'react'
-import '../HomeTeqdim/Hometeqdim.scss'
+import './Hometeqdim.scss'
 import { RiTeamFill } from "react-icons/ri";
 import { FaChess } from "react-icons/fa";
 import { FaUserShield } from "react-icons/fa6";
