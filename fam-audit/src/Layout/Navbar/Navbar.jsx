@@ -51,9 +51,9 @@ const Navbar = () => {
                          <Link to="/about">HAQQIMIZDA</Link>
                          <br />
                         <div className="nav__dropdown">
-                          <Link to="/tariximiz">RƏHBƏRLİK</Link>
-                          <Link to="/tariximiz">LİSENZİYALAR</Link>
-                          <Link to="/tariximiz">ETİKA VƏ UYĞUNLUQ</Link>
+                          <Link to="/rehberlik">RƏHBƏRLİK</Link>
+                          <Link to="/lisenziyalar">LİSENZİYALAR</Link>
+                          <Link to="/ethics">ETİKA VƏ UYĞUNLUQ</Link>
                         </div>
                       </div>
                        </div>
@@ -61,13 +61,13 @@ const Navbar = () => {
                    <div className="col-xl-2">
                     <div className="link">
                       <div className="nav-drop nav-drop2">
-                        <Link to="/haqqimizda">XİDMƏTLƏR</Link>
+                        <Link to="/about">XİDMƏTLƏR</Link>
                         <div className="nav__dropdown">
-                          <Link to="/tariximiz">Beynəlxalq Audit Standartlarına əsasən illik maliyyə hesabatlarının auditi</Link>
-                          <Link to="/rehberlik">Xüsusi təyinatlı hesabatlar və tapşırıqlar üzrə rəy</Link>
-                          <Link to="/lisenziyalar">Məsləhət və digər əlaqəli xidmətlərin göstərilməsi</Link>
-                          <Link to="/ethics">Əmlak və digər mülkiyyət obyektlərinin qiymətləndirilməsinin düzgünlüyünün təsdiqi</Link>
-                           <Link to="/ethics">İstintaq və məhkəmə dəstəyi xidmətləri</Link>
+                          <Link to="/maliyye-hesabatlari-auditi">Beynəlxalq Audit Standartlarına əsasən illik maliyyə hesabatlarının auditi</Link>
+                          <Link to="/xususi-teyinatli-hesablar">Xüsusi təyinatlı hesabatlar və tapşırıqlar üzrə rəy</Link>
+                          <Link to="/meslehet-ve-diger-xidmetler">Məsləhət və digər əlaqəli xidmətlərin göstərilməsi</Link>
+                          <Link to="/mulkiyyet-obyektleri">Əmlak və digər mülkiyyət obyektlərinin qiymətləndirilməsinin düzgünlüyünün təsdiqi</Link>
+                          <Link to="/istintaq-ve-mehkeme">İstintaq və məhkəmə dəstəyi xidmətləri</Link>
                         </div>
                       </div>
                     </div>
