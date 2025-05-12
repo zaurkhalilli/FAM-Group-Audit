@@ -1,0 +1,32 @@
+.animation-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 55vh;
+  background-color: #004460;
+  color: #ffffff;
+  text-align: center;
+  
+  // Mobil cihazlar 
+  @media (max-width: 768px) {
+    flex-direction: column;
+    height: 80vh;
+  }
+}
+
+.tamamlanmis-layiheler {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.counter {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.label {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  font-weight: 540;
+}
