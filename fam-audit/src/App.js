@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./ScrollToTop";
 import Layout from "./Layout/Layout";
 import Home from "./Pages/Home";
+import Haqqimizda from "./Pages/Haqqimizda";
 function App() {
   return (
     <div>
@@ -11,7 +12,7 @@ function App() {
       <Layout>
        <Routes>
         <Route index path='/' element={<Home/>} />
-          
+         <Route index path='/about' element={<Haqqimizda/>} />
         </Routes>
        </Layout> 
     </BrowserRouter>
