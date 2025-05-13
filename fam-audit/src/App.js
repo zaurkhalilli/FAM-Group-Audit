@@ -7,6 +7,7 @@ import Haqqimizda from "./Pages/Haqqimizda";
 import Rehberlik from "./Pages/Rehberlik";
 import Ethics from "./Pages/Ethics";
 import Beynelxalqaudit from "./Pages/Beynelxalqaudit";
+import XususiThesablar from "./Pages/XususiThesablar";
 function App() {
   return (
     <div>
@@ -18,7 +19,8 @@ function App() {
         <Route index path='/about' element={<Haqqimizda/>} />
         <Route index path='/rehberlik' element={<Rehberlik/>} />
         <Route index path='/ethics' element={<Ethics/>} />
-         <Route index path='/firstservice' element={<Beynelxalqaudit/>} />
+        <Route index path='/firstservice' element={<Beynelxalqaudit/>} />
+         <Route index path='/secondservice' element={<XususiThesablar/>} />
         </Routes>
        </Layout> 
     </BrowserRouter>

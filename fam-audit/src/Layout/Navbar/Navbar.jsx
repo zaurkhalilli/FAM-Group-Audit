@@ -64,10 +64,10 @@ const Navbar = () => {
                         <Link to="/about">XİDMƏTLƏR</Link>
                         <div className="nav__dropdown">
                           <Link to="/firstservice">Beynəlxalq Audit Standartlarına əsasən illik maliyyə hesabatlarının auditi</Link>
-                          <Link to="/xususi-teyinatli-hesablar">Xüsusi təyinatlı hesabatlar və tapşırıqlar üzrə rəy</Link>
-                          <Link to="/meslehet-ve-diger-xidmetler">Məsləhət və digər əlaqəli xidmətlərin göstərilməsi</Link>
-                          <Link to="/mulkiyyet-obyektleri">Əmlak və digər mülkiyyət obyektlərinin qiymətləndirilməsinin düzgünlüyünün təsdiqi</Link>
-                          <Link to="/istintaq-ve-mehkeme">İstintaq və məhkəmə dəstəyi xidmətləri</Link>
+                          <Link to="/secondservice">Xüsusi təyinatlı hesabatlar və tapşırıqlar üzrə rəy</Link>
+                          <Link to="/thirdservice">Məsləhət və digər əlaqəli xidmətlərin göstərilməsi</Link>
+                          <Link to="/fourthservice">Əmlak və digər mülkiyyət obyektlərinin qiymətləndirilməsinin düzgünlüyünün təsdiqi</Link>
+                          <Link to="/fifthservice">İstintaq və məhkəmə dəstəyi xidmətləri</Link>
                         </div>
                       </div>
                     </div>
