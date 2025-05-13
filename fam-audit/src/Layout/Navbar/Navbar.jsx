@@ -63,7 +63,7 @@ const Navbar = () => {
                       <div className="nav-drop nav-drop2">
                         <Link to="/about">XİDMƏTLƏR</Link>
                         <div className="nav__dropdown">
-                          <Link to="/maliyye-hesabatlari-auditi">Beynəlxalq Audit Standartlarına əsasən illik maliyyə hesabatlarının auditi</Link>
+                          <Link to="/firstservice">Beynəlxalq Audit Standartlarına əsasən illik maliyyə hesabatlarının auditi</Link>
                           <Link to="/xususi-teyinatli-hesablar">Xüsusi təyinatlı hesabatlar və tapşırıqlar üzrə rəy</Link>
                           <Link to="/meslehet-ve-diger-xidmetler">Məsləhət və digər əlaqəli xidmətlərin göstərilməsi</Link>
                           <Link to="/mulkiyyet-obyektleri">Əmlak və digər mülkiyyət obyektlərinin qiymətləndirilməsinin düzgünlüyünün təsdiqi</Link>
