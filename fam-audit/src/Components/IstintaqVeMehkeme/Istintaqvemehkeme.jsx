@@ -2,20 +2,28 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { AiOutlineAudit } from "react-icons/ai";
-import '../EmlakTesdiqi/Emlaktesdiqi.scss'
+import '../IstintaqVeMehkeme/Istintaqvemehkeme.scss'
 
 const items = [
-  "Maddi aktivlərin qiymətləndirilməsi",
-  "İntelektual mülkiyyət obyektlərinin və “nou-hau”ların qiymətləndirilməsi",
+   "Kommersiya və müqavilə mübahisələrinin həllində dəstək",
+   "Korporativ və ailə biznesi mübahisələrinin həllində dəstək",
+   "Ekspert şahidliyi xidmətləri",
+   "Mülki-iqtisadi məsələlər üzrə məhkəmə proseslərində müştərilərə dəstək",
+   "Saxtakarlıq risklərinin dəyərləndirilməsi və minimallaşdırılmasında dəstək",
+   "Aktivlərin üzləşdirilməsi və dəqiqləşdirilməsi",
+   "Biznesin dayandırılması və sığorta iddialarında dəstək",
+   "Araşdırma və Tədqiqat",
+   "Dəymiş zərərin qiymətləndirilməsi xidməti",
 ];
 
-const Emlaktesdiqi = () => {
+
+const Istintaqvemehkeme = () => {
   useEffect(() => {
     AOS.init({ duration: 800, once: true });
   }, []);
 
   return (
-  <div id="emlak">
+  <div id="istintaq">
       <div className="p-6 space-y-4">
        <div className="heading">
          <h3> <AiOutlineAudit />  Əmlak və digər mülkiyyət obyektlərinin qiymətləndirilməsinin düzgünlüyünün təsdiqi</h3>
@@ -37,4 +45,4 @@ const Emlaktesdiqi = () => {
   );
 };
 
-export default Emlaktesdiqi
+export default Istintaqvemehkeme

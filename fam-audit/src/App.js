@@ -10,6 +10,7 @@ import Beynelxalqaudit from "./Pages/Beynelxalqaudit";
 import XususiThesablar from "./Pages/XususiThesablar";
 import Meslehet from "./Pages/Meslehet";
 import Emlak from "./Pages/Emlak";
+import Istintaq from "./Pages/Istintaq";
 function App() {
   return (
     <div>
@@ -25,7 +26,7 @@ function App() {
         <Route index path='/secondservice' element={<XususiThesablar/>} />
         <Route index path='/thirdservice' element={<Meslehet/>} />
         <Route index path='/fourthservice' element={<Emlak/>} />
-        <Route index path='/fifthservice' element={<XususiThesablar/>} />
+        <Route index path='/fifthservice' element={<Istintaq/>} />
         </Routes>
        </Layout> 
     </BrowserRouter>
