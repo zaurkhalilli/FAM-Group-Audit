@@ -9,6 +9,7 @@ import Ethics from "./Pages/Ethics";
 import Beynelxalqaudit from "./Pages/Beynelxalqaudit";
 import XususiThesablar from "./Pages/XususiThesablar";
 import Meslehet from "./Pages/Meslehet";
+import Emlak from "./Pages/Emlak";
 function App() {
   return (
     <div>
@@ -23,9 +24,8 @@ function App() {
         <Route index path='/firstservice' element={<Beynelxalqaudit/>} />
         <Route index path='/secondservice' element={<XususiThesablar/>} />
         <Route index path='/thirdservice' element={<Meslehet/>} />
-        <Route index path='/fourthservice' element={<XususiThesablar/>} />
+        <Route index path='/fourthservice' element={<Emlak/>} />
         <Route index path='/fifthservice' element={<XususiThesablar/>} />
-        <Route index path='/sixthservice' element={<XususiThesablar/>} />
         </Routes>
        </Layout> 
     </BrowserRouter>
