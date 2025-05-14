@@ -59,7 +59,7 @@ const Navbar = () => {
                   <div className="col-xl-2">
                     <div className="link">
                       <div className="nav-drop nav-drop2">
-                        <Link to="/about">XİDMƏTLƏR</Link>
+                        <Link to="/services">XİDMƏTLƏR</Link>
                         <div className="nav__dropdown">
                           <Link to="/firstservice">Beynəlxalq Audit Standartlarına əsasən illik maliyyə hesabatlarının auditi</Link>
                           <Link to="/secondservice">Xüsusi təyinatlı hesabatlar və tapşırıqlar üzrə rəy</Link>
@@ -95,7 +95,7 @@ const Navbar = () => {
             </div>
           </div>
           <div className="tablet-dropdown">
-            <Link to="/xidmetler">XİDMƏTLƏR</Link>
+            <Link to="/services">XİDMƏTLƏR</Link>
             <div className="tablet-dropdown-menu">
               <Link to="/firstservice">Beynəlxalq Audit Standartlarına əsasən illik maliyyə hesabatlarının auditi</Link>
               <Link to="/secondservice">Xüsusi təyinatlı hesabatlar və tapşırıqlar üzrə rəy</Link>
@@ -126,7 +126,7 @@ const Navbar = () => {
             <Link to="/rehberlik">RƏHBƏRLİK</Link>
             <Link to="/lisenziyalar">LİSENZİYALAR</Link>
             <Link to="/ethics">ETİK DAVRANIŞ</Link>
-            <Link to="/xidmetler">XİDMƏTLƏR</Link>
+            <Link to="/services">XİDMƏTLƏR</Link>
             <Link to="/elaqe">ƏLAQƏ</Link>
             <Link to="/karyera">KARYERA</Link>
           </div>

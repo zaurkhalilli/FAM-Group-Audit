@@ -14,6 +14,7 @@ import Istintaq from "./Pages/Istintaq";
 import Karyera from "./Pages/Karyera";
 import Elaqe from "./Pages/Elaqe";
 import Lisenziyalar from "./Pages/Lisenziyalar";
+import Xidmetler from "./Pages/Xidmetler";
 function App() {
   return (
     <div>
@@ -33,6 +34,7 @@ function App() {
         <Route index path='/elaqe' element={<Elaqe/>} />
         <Route index path='/karyera' element={<Karyera/>} />
         <Route index path='/lisenziyalar' element={<Lisenziyalar/>} />
+         <Route index path='/services' element={<Xidmetler/>} />
         </Routes>
        </Layout> 
     </BrowserRouter>

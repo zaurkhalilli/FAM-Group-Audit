@@ -1,0 +1,35 @@
+#xidmetler{
+    background-color: #004460;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    .heading{
+        text-align: center;
+        color: white;
+        p{
+            max-width: 800px;
+            margin: 0 auto;
+            padding-top: 20px;
+            font-weight: 540;
+            text-align: justify; 
+            letter-spacing: 1px;   
+            font-size: 1.1rem;
+        }
+
+    }
+    .xidmetsection{
+        .container{
+            display: flex;
+            flex-direction: column;
+            padding-top: 100px;
+            padding-bottom: 40px;
+            background-color: #004460;
+            a{
+                color: white;
+                text-decoration: none;
+                font-size: 1.1rem;
+                letter-spacing: 1px;
+                font-weight: 600;
+            }
+        }
+    }
+}
