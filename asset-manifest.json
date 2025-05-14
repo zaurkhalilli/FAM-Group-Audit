@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7f2d09af.css",
+    "main.js": "/static/js/main.e42ebbdc.js",
+    "static/media/audit-intro.mp4": "/static/media/audit-intro.3a5384eec9753fbbc294.mp4",
+    "index.html": "/index.html",
+    "main.7f2d09af.css.map": "/static/css/main.7f2d09af.css.map",
+    "main.e42ebbdc.js.map": "/static/js/main.e42ebbdc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f2d09af.css",
+    "static/js/main.e42ebbdc.js"
+  ]
+}
