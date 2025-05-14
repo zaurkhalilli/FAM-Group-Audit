@@ -13,6 +13,7 @@ import Emlak from "./Pages/Emlak";
 import Istintaq from "./Pages/Istintaq";
 import Karyera from "./Pages/Karyera";
 import Elaqe from "./Pages/Elaqe";
+import Lisenziyalar from "./Pages/Lisenziyalar";
 function App() {
   return (
     <div>
@@ -31,6 +32,7 @@ function App() {
         <Route index path='/fifthservice' element={<Istintaq/>} />
         <Route index path='/elaqe' element={<Elaqe/>} />
         <Route index path='/karyera' element={<Karyera/>} />
+        <Route index path='/lisenziyalar' element={<Lisenziyalar/>} />
         </Routes>
        </Layout> 
     </BrowserRouter>

@@ -16,12 +16,11 @@ const Navbar = () => {
 
   return (
     <>
-      {/*Desktop Navbar*/}
-      <div id='navbar'>
+      {/* Desktop Navbar */}
+      <div id="navbar">
         <div className="navtop">
           <div className="navleft">
-            <p><FaMapMarkerAlt color='white' /> Nəriman Nərimanov rayonu,
-              Əhməd Rəcəbli küç., 224, 4-cü mərtəbə</p>
+            <p><FaMapMarkerAlt color="white" /> Nəriman Nərimanov rayonu, Əhməd Rəcəbli küç., 224, 4-cü mərtəbə</p>
           </div>
           <div className="navright">
             <div className="list">
@@ -44,21 +43,20 @@ const Navbar = () => {
             <div className="col-xl-10">
               <div className="container">
                 <div className="row">
-                  <div className="col-xl-2"><div className="link"><Link to="/" >ANA SƏHİFƏ</Link></div></div>
-                 <div className="col-xl-2">
-                   <div className="nav-drop nav-drop2">
-                       <div className="link">
-                         <Link to="/about">HAQQIMIZDA</Link>
-                         <br />
+                  <div className="col-xl-2"><div className="link"><Link to="/">ANA SƏHİFƏ</Link></div></div>
+                  <div className="col-xl-2">
+                    <div className="nav-drop nav-drop2">
+                      <div className="link">
+                        <Link to="/about">HAQQIMIZDA</Link>
+                        <br />
                         <div className="nav__dropdown">
                           <Link to="/rehberlik">RƏHBƏRLİK</Link>
-                          <Link to="/lisenziyalar">LİSENZİYALAR</Link>
                           <Link to="/ethics">ETİKA VƏ UYĞUNLUQ</Link>
                         </div>
                       </div>
-                       </div>
-                 </div>
-                   <div className="col-xl-2">
+                    </div>
+                  </div>
+                  <div className="col-xl-2">
                     <div className="link">
                       <div className="nav-drop nav-drop2">
                         <Link to="/about">XİDMƏTLƏR</Link>
@@ -72,7 +70,7 @@ const Navbar = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-xl-2"><div className="link"><Link to="/layiheler">PARTNYORLAR</Link></div></div>
+                  <div className="col-xl-2"><div className="link"><Link to="/lisenziyalar">LİSENZİYALAR</Link></div></div>
                   <div className="col-xl-2"><div className="link"><Link to="/karyera">KARYERA</Link></div></div>
                   <div className="col-xl-2"><div className="link"><Link to="/elaqe">ƏLAQƏ</Link></div></div>
                 </div>
@@ -90,16 +88,24 @@ const Navbar = () => {
           </div>
           <Link to="/">ANA SƏHİFƏ</Link>
           <div className="tablet-dropdown">
-            <Link to="/haqqimizda">HAQQIMIZDA</Link>
+            <Link to="/about">HAQQIMIZDA</Link>
             <div className="tablet-dropdown-menu">
-            <Link to="/tariximiz">Tariximiz</Link>
-            <Link to="/rehberlik">Rəhbərlik</Link>
-            <Link to="/lisenziyalar">Lisenziyalar</Link>
-            <Link to="/ethics">Etik Davranış</Link>
+              <Link to="/rehberlik">RƏHBƏRLİK</Link>
+              <Link to="/ethics">ETİKA VƏ UYĞUNLUQ</Link>
             </div>
           </div>
-          <Link to="/xidmetler">XİDMƏTLƏR</Link>
-          <Link to="/layiheler">LAYİHƏLƏR</Link>
+          <div className="tablet-dropdown">
+            <Link to="/xidmetler">XİDMƏTLƏR</Link>
+            <div className="tablet-dropdown-menu">
+              <Link to="/firstservice">Beynəlxalq Audit Standartlarına əsasən illik maliyyə hesabatlarının auditi</Link>
+              <Link to="/secondservice">Xüsusi təyinatlı hesabatlar və tapşırıqlar üzrə rəy</Link>
+              <Link to="/thirdservice">Məsləhət və digər əlaqəli xidmətlərin göstərilməsi</Link>
+              <Link to="/fourthservice">Əmlak və digər mülkiyyət obyektlərinin qiymətləndirilməsinin düzgünlüyünün təsdiqi</Link>
+              <Link to="/fifthservice">İstintaq və məhkəmə dəstəyi xidmətləri</Link>
+            </div>
+          </div>
+          
+          <Link to="/lisenziyalar">LİSENZİYALAR</Link>
           <Link to="/elaqe">ƏLAQƏ</Link>
           <Link to="/karyera">KARYERA</Link>
         </div>
@@ -116,13 +122,11 @@ const Navbar = () => {
         {menuOpen && (
           <div className="navbar__mobile-menu">
             <Link to="/">ANA SƏHİFƏ</Link>
-            <Link to="/haqqimizda">HAQQIMIZDA</Link>
-            <Link to="/tariximiz">TARİXİMİZ</Link>
+            <Link to="/about">HAQQIMIZDA</Link>
             <Link to="/rehberlik">RƏHBƏRLİK</Link>
             <Link to="/lisenziyalar">LİSENZİYALAR</Link>
             <Link to="/ethics">ETİK DAVRANIŞ</Link>
             <Link to="/xidmetler">XİDMƏTLƏR</Link>
-            <Link to="/layiheler">LAYİHƏLƏR</Link>
             <Link to="/elaqe">ƏLAQƏ</Link>
             <Link to="/karyera">KARYERA</Link>
           </div>
