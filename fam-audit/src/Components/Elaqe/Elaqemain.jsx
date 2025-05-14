@@ -1,5 +1,5 @@
 import React from 'react'
-import './Homeelaqe.scss'
+import './Elaqemain.scss'
 import { MdOutlineMail } from "react-icons/md";
 import { FaGlobe } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
@@ -12,7 +12,7 @@ const Elaqemain = () => {
            <div className="elaqeinputlari">
             <div className="container">
                 <div className="row">
-                    <h5> <MdOutlineMail color='#3f3f3f'  size={25} />  ƏLAQƏ FORMASI</h5>
+                    <h5> <MdOutlineMail color='white'  size={25} />  ƏLAQƏ FORMASI</h5>
                     <div className="col-xl-6">
                     <p>Ad</p>
                     <input type="text" />
@@ -42,7 +42,7 @@ const Elaqemain = () => {
             </div>
             <div className="col-md-6">
               <div className="elaqeright">
-              <h5><FaGlobe color='#3f3f3f' size={25} />   ƏLAQƏ MƏLUMATLARI</h5>
+              <h5><FaGlobe color='white' size={25} />   ƏLAQƏ MƏLUMATLARI</h5>
                 <p>Ünvan</p>
                <div className="infotop">
                <span>AZ1075, Bakı şəhəri, Azərbaycan,</span>

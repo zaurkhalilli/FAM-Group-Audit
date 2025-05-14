@@ -1,6 +1,6 @@
 #elaqe{
     padding-top: 60px;
-    background-color: #e4e4e4;
+    background-color: #004460;
     padding-bottom: 40px;
     .elaqeinputlari{
         input{
@@ -14,7 +14,10 @@
         }
         p{
             margin-bottom: 0.35rem;
-            color: #a1a1a1;
+            color: white;
+        }
+        h5{
+            color: white;
         }
     }
     .mesajinput{
@@ -28,30 +31,36 @@
         }
         p{
             margin-bottom: 0.35rem;
-            color: #a1a1a1;
+            color: white;
         }
     }
     .elaqebtn{
         padding-top: 15px;
         padding-left: 10px;
         button{
-            padding: 7px 25px;
-               background-color: #3f3f3f ;
+            padding: 10px 25px;
+               background-color: #ffffff ;
                border: none;
-               color: white;
+               color: #004460;
                 font-weight: 640;
                 font-size: 1.075rem;
                 border-radius: 4px;
         }
     }
     .elaqeright{
+         h5{
+            color: white;
+        }
         p{
             padding-top: 20px;
             font-size: 1.3rem;
+            color: white;
             font-weight: 650;
         }
         span{
             font-size: 1.05rem;
+            color: white;
+            font-weight: 540;
         }
         .infotop{
             padding-top: 10px;
