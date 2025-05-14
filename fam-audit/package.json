@@ -2,7 +2,7 @@
   "name": "fam-audit",
   "version": "0.1.0",
   "private": true,
-   "homepage": "https://github-username.github.io/FAM-Group-Audit", 
+   "homepage": "https://zaurkhalilli.github.io/FAM-Group-Audit", 
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
