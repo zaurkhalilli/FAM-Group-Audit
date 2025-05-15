@@ -5,8 +5,8 @@ import { PiHandHeartFill } from "react-icons/pi";
 const Homeproyekt = () => {
     const [projectsCount, setProjectsCount] = useState(0);
     const [partnersCount, setPartnersCount] = useState(0);
-    const targetProjects = 55;
-    const targetPartners = 40;
+    const targetProjects = 40;
+    const targetPartners = 15;
 
   useEffect(() => {
     if (projectsCount < targetProjects) {
