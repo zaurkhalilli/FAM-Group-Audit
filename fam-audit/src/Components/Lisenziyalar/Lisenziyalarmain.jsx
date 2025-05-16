@@ -10,16 +10,18 @@ const Lisenziyalarmain = () => {
       <div className="container">
         <div className="row g-6">
           <div className="col-xl-4">
-            <p>1. 10 Oktyabr 2024-cü ildə Azərbaycan Respublikası Auditorlar Platası tərəfindən Auditor fəaliyyətinin icrası ilə bağlı lisenziya.</p>
+            <p>1. 10 Oktyabr 2024-cü ildə Azərbaycan Respublikası Auditorlar Platası tərəfindən Auditor fəaliyyətinin icrası ilə bağlı yenilənmiş lisenziya(5 il müddətinə yenilənmiş lisenziya).</p>
             <br />
           <img src={Photoaudit1} alt="" />
           </div>
           <div className="col-xl-4">
             <p>2. 11 Yanvar 2023-cü ildə Azərbaycan Respublikası Auditorlar Palatası tərəfindən Auditor fəaliyyətinin icrası ilə bağlı icazə lisenziya. </p>
-          <img src={Photoaudit2} alt="" />
+            <br />
+            <img src={Photoaudit2} alt="" />
           </div>
           <div className="col-xl-4">
             <p>3. Audit üzrə baş mütəxəssisimiz Zaur Salahovun ACCA Kvalifikasiya sənədi. </p>
+            <br />
             <br />
             <br />
           <img src={Photoaudit3} alt="" />
