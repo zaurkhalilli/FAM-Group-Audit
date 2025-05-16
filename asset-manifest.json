@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/FAM-Group-Audit/static/css/main.7f2d09af.css",
-    "main.js": "/FAM-Group-Audit/static/js/main.202a686f.js",
+    "main.css": "/FAM-Group-Audit/static/css/main.922a5c38.css",
+    "main.js": "/FAM-Group-Audit/static/js/main.794ea55a.js",
     "static/media/audit-intro.mp4": "/FAM-Group-Audit/static/media/audit-intro.3a5384eec9753fbbc294.mp4",
+    "static/media/audit1.jpeg": "/FAM-Group-Audit/static/media/audit1.519a88fe6f378d3dc901.jpeg",
+    "static/media/audit3.jpg": "/FAM-Group-Audit/static/media/audit3.33e56122b333dc839061.jpg",
+    "static/media/audit2.jpeg": "/FAM-Group-Audit/static/media/audit2.aeaaa3a55c13fa519d06.jpeg",
     "index.html": "/FAM-Group-Audit/index.html",
-    "main.7f2d09af.css.map": "/FAM-Group-Audit/static/css/main.7f2d09af.css.map",
-    "main.202a686f.js.map": "/FAM-Group-Audit/static/js/main.202a686f.js.map"
+    "main.922a5c38.css.map": "/FAM-Group-Audit/static/css/main.922a5c38.css.map",
+    "main.794ea55a.js.map": "/FAM-Group-Audit/static/js/main.794ea55a.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f2d09af.css",
-    "static/js/main.202a686f.js"
+    "static/css/main.922a5c38.css",
+    "static/js/main.794ea55a.js"
   ]
 }
