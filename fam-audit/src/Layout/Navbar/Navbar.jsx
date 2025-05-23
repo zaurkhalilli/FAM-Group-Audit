@@ -84,7 +84,7 @@ const Navbar = () => {
       <div className="navbar__tablet">
         <div className="navbar__tablet-menu">
           <div className="navbarlogo">
-            <Link to="/"><img src="https://www.famgroupaudit.az/assets/images/auditlogo.png" alt="FAM-Group-Construction-Logo" /></Link>
+            <Link to="/"><img src="https://www.famgroupaudit.az/assets/images/auditlogo.png" alt="FAM-Group-Audit-Logo" /></Link>
           </div>
           <Link to="/">ANA SƏHİFƏ</Link>
           <div className="tablet-dropdown">
@@ -115,7 +115,7 @@ const Navbar = () => {
       <div className="navbar__mobile">
         <div className="navbar__burger" onClick={toggleMenu}>
           <div className="navbarlogo">
-            <Link to="/"><img src="https://www.famgroupaudit.az/assets/images/auditlogo.png" alt="FAM-Group-Construction-Logo" /></Link>
+            <Link to="/"><img src="https://www.famgroupaudit.az/assets/images/auditlogo.png" alt="FAM-Group-Audit-Logo" /></Link>
           </div>
           ☰
         </div>
