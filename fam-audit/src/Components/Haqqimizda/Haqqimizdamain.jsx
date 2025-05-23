@@ -18,7 +18,7 @@ const Haqqimizdamain = () => {
         </p>
       </div>
       <div className="about-image" data-aos="fade-left">
-        <img src="https://www.accountantsdaily.com.au/images/tax_audit_1.jpg" alt="Haqqımızda şəkli" />
+        <img src="https://www.accountantsdaily.com.au/images/tax_audit_1.jpg" alt="FAM Group Audit Haqqımızda şəkli" />
       </div>
     </section>
   );

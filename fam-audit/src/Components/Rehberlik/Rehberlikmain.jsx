@@ -9,28 +9,28 @@ const Rehberlikmain = () => {
       <div className="container">
         <div className="row g-2">
             <div className="col-xl-6">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png" alt="" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png" alt="FAM Group Audit Rehberlik" />
             </div>
              <div className="col-xl-6">
              <h3>DİREKTOR</h3>
              <p>Mirkazım Hüseynov</p>
             </div>
              <div className="col-xl-6">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png" alt="" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png" alt="FAM Group Audit Rehberlik" />
             </div>
              <div className="col-xl-6 ">
              <h3>DİREKTOR</h3>
             <p>Mirkazım Hüseynov</p>
             </div>
               <div className="col-xl-6">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png" alt="" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png" alt="FAM Group Audit Rehberlik" />
             </div>
              <div className="col-xl-6">
              <h3>DİREKTOR</h3>
             <p>Mirkazım Hüseynov</p>
             </div>
               <div className="col-xl-6">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png" alt="" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png" alt="FAM Group Audit Rehberlik" />
             </div>
              <div className="col-xl-6">
              <h3>DİREKTOR</h3>

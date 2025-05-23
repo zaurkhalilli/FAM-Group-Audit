@@ -12,7 +12,7 @@ const Etikauygunluq = () => {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-xl-6 mb-4 mb-xl-0" data-aos="fade-right">
-            <img src="https://upscyard.com/wp-content/uploads/2023/07/politics-and-ethics-Copy-e1689441576582.png" className="img-fluid rounded" alt="Haqqımızda" />
+            <img src="https://upscyard.com/wp-content/uploads/2023/07/politics-and-ethics-Copy-e1689441576582.png" className="img-fluid rounded" alt="FAM Group Audit Etika ve Uygunluq" />
           </div>
 
           <div className="col-xl-6" data-aos="fade-up">

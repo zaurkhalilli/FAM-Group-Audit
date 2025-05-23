@@ -15,29 +15,30 @@ import Karyera from "./Pages/Karyera";
 import Elaqe from "./Pages/Elaqe";
 import Lisenziyalar from "./Pages/Lisenziyalar";
 import Xidmetler from "./Pages/Xidmetler";
+
 function App() {
   return (
     <div>
-    <BrowserRouter>
-    <ScrollToTop /> 
-      <Layout>
-       <Routes>
-        <Route index path='/' element={<Home/>} />
-        <Route index path='/about' element={<Haqqimizda/>} />
-        <Route index path='/rehberlik' element={<Rehberlik/>} />
-        <Route index path='/ethics' element={<Ethics/>} />
-        <Route index path='/firstservice' element={<Beynelxalqaudit/>} />
-        <Route index path='/secondservice' element={<XususiThesablar/>} />
-        <Route index path='/thirdservice' element={<Meslehet/>} />
-        <Route index path='/fourthservice' element={<Emlak/>} />
-        <Route index path='/fifthservice' element={<Istintaq/>} />
-        <Route index path='/elaqe' element={<Elaqe/>} />
-        <Route index path='/karyera' element={<Karyera/>} />
-        <Route index path='/lisenziyalar' element={<Lisenziyalar/>} />
-         <Route index path='/services' element={<Xidmetler/>} />
-        </Routes>
-       </Layout> 
-    </BrowserRouter>
+      <BrowserRouter basename="/FAM-Group-Audit">
+        <ScrollToTop />
+        <Layout>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<Haqqimizda />} />
+            <Route path="/rehberlik" element={<Rehberlik />} />
+            <Route path="/ethics" element={<Ethics />} />
+            <Route path="/firstservice" element={<Beynelxalqaudit />} />
+            <Route path="/secondservice" element={<XususiThesablar />} />
+            <Route path="/thirdservice" element={<Meslehet />} />
+            <Route path="/fourthservice" element={<Emlak />} />
+            <Route path="/fifthservice" element={<Istintaq />} />
+            <Route path="/elaqe" element={<Elaqe />} />
+            <Route path="/karyera" element={<Karyera />} />
+            <Route path="/lisenziyalar" element={<Lisenziyalar />} />
+            <Route path="/services" element={<Xidmetler />} />
+          </Routes>
+        </Layout>
+      </BrowserRouter>
     </div>
   );
 }
