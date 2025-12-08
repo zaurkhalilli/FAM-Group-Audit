@@ -1,4 +1,5 @@
 import React from 'react'
+import Auditlogo from '../Navbar/Famauditlogo.jpeg'
 import '../Footer/Footer.scss'
 const Footer = () => {
   return (
@@ -6,7 +7,7 @@ const Footer = () => {
       <div className="container">
         <div className="row g-2">
           <div className="col-xl-3">
-          <img src="https://www.famgroupaudit.az/assets/images/auditlogo.png" alt="FAM-Group-Audit-Logo" />
+          <img src={Auditlogo} alt="FAM-Group-Audit-Logo" />
           </div>
           <div className="col-xl-9">
           <div className="footerright">

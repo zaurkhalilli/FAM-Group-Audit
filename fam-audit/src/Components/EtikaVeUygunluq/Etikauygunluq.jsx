@@ -10,16 +10,67 @@ const Etikauygunluq = () => {
   return (
     <section className="about-section">
       <div className="container">
-        <div className="row align-items-center">
+        <h1>FAM Group Audit - Bizim Dəyərlərimiz və Strateji Plan</h1>
+        <div className="row">
           <div className="col-xl-6 mb-4 mb-xl-0" data-aos="fade-right">
-            <img src="https://upscyard.com/wp-content/uploads/2023/07/politics-and-ethics-Copy-e1689441576582.png" className="img-fluid rounded" alt="FAM Group Audit Etika ve Uygunluq" />
+            <br />
+            <br />
+            <p><h2>Bizim Dəyərlərimiz : </h2>
+              1.	Dürüstlük və Etika:
+              Audit fəaliyyətimizin əsasında şəffaflıq, obyektivlik və peşəkar etika dayanır. Müştəri məlumatlarının məxfiliyi və dürüstlüyü bizim üçün dəyişməz prinsiplərdir.
+              <br />
+              2.	Müstəqillik və Qərəzsizlik:
+              Hər bir audit qərarı və rəyi yalnız faktlara, qanunvericiliyə və beynəlxalq standartlara əsaslanır. Heç bir maraq və təsir nəticələrimizə yön vermir.
+              <br />
+              3.	Peşəkarlıq və Keyfiyyət:
+              Komandamız beynəlxalq standartlara uyğun bilik və təcrübəyə malikdir. Hər audit layihəsində yüksək keyfiyyət və dəqiqlik əsas prinsipimizdir.
+              <br />
+              4.	İnnovasiya və Rəqəmsallaşma:
+              Audit proseslərimizi texnoloji alətlərlə (BPM, Data Analytics, Audit Software) təkmilləşdiririk və rəqəmsal nəzarəti gücləndiririk.
+              <br />
+              5.	Müştəri Mərkəzli Yanaşma:
+              Müştərilərimizin ehtiyaclarını dərindən anlayaraq, onların maliyyə şəffaflığını və hesabat keyfiyyətini artıran həllər təqdim edirik.
+              <br />
+              6.	Komanda Ruhu və Davamlı İnkişaf:
+              Uğurun açarı birgə təcrübə və bilik paylaşımıdır. Komandamızın davamlı inkişafı üçün təlim və sertifikasiya proqramlarına önəm veririk.
+              <br />
+              7.	Etibarlılıq və Sosial Məsuliyyət:
+              İctimai maraqları qorumaq, şəffaf iqtisadi mühitə töhfə vermək və cəmiyyət üçün dəyər yaratmaq bizim missiyamızın bir hissəsidir.
+              </p>
           </div>
-
           <div className="col-xl-6" data-aos="fade-up">
             <div className="about-text">
-              <h2>Etika Və Uyğunluq</h2>
+              <br />
+              <h2>Strateji Plan : </h2>
               <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem autem unde magni adipisci dolorum. Temporibus aspernatur sequi voluptatum id doloribus illum eligendi reiciendis ea eius? Voluptatem quas obcaecati reprehenderit vero aperiam, deserunt nesciunt aspernatur accusamus ullam ducimus, sequi ad. Aliquid nesciunt voluptates, blanditiis perspiciatis est earum non nostrum maiores quo asperiores placeat cupiditate corrupti praesentium labore perferendis vel sed ea explicabo laborum quidem? Sapiente odit veritatis asperiores voluptatum. Eos modi impedit quod voluptates obcaecati suscipit minima odio ullam deserunt aliquid, nostrum dolorem sapiente esse consequuntur blanditiis, numquam pariatur quisquam velit eius! Et enim assumenda possimus praesentium nostrum dicta delectus odit!
+             Missiyamız:
+            Azərbaycan iqtisadiyyatında şəffaflığı və hesabatlılığı gücləndirmək məqsədilə, beynəlxalq standartlara uyğun, etibarlı və peşəkar audit xidmətləri təqdim etmək.
+            Vizyonumuz:
+            Regionda müstəqil audit və məsləhət xidmətləri üzrə nüfuzlu, etibarlı və innovativ tərəfdaş kimi tanınmaq.
+            Strateji Məqsədlər
+            Məqsəd	Təsvir	Ölçü göstəricisi  
+            <br />
+            1. Audit Keyfiyyətinin Təkmilləşdirilməsi	Audit metodologiyalarının beynəlxalq standartlara uyğunlaşdırılması	Keyfiyyət nəzarəti üzrə illik 95% uyğunluq göstəricisi
+            <br />
+            2. Rəqəmsal Audit Sistemlərinin tətbiqi	Elektron audit və məlumat analiz platformalarının yaradılması	2026-cı ilə qədər tam inteqrasiya olunmuş audit proqramı
+            <br />
+            3. Kadrların Peşəkar İnkişafı	ACCA, CPA və yerli təlim proqramlarında iştirakın artırılması	Hər əməkdaş üçün illik minimum 60 təlim saatı
+            <br />
+            4. Müştəri Bazası və Etimadın Artırılması	Dövlət və özəl sektor müştəriləri ilə uzunmüddətli əməkdaşlıqlar	NPS üzrə 85%+ müştəri məmnuniyyəti səviyyəsi
+            <br />  
+            5. Sosial Məsuliyyət və Etik İctimai Təsir	Audit şəffaflığı və etik mədəniyyətin təbliği	Hər il 2 ictimai maarifləndirmə layihəsi həyata keçirmək
+            <br />
+            <br />
+            <h3>Strateji İcra Mexanizmləri :</h3>
+            •	Daxili keyfiyyət təminatı və audit nəzarət sistemi (QA System)
+            <br />
+            •	BPM və Data Analytics əsaslı idarəetmə və hesabatlıq
+            <br />
+            •	Rüblük performans və uyğunluq hesabatları
+            <br />
+            •	Müştəri geribildirimləri və NPS əsaslı təkmilləşdirmə prosesi
+            <br />
+            •	Əməkdaşların davamlı təlim və sertifikasiya proqramları
               </p>
             </div>
           </div>

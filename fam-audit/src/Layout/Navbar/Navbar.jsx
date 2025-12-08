@@ -6,6 +6,7 @@ import { IoLogoFacebook } from "react-icons/io";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FiInstagram } from "react-icons/fi";
 import { FaYoutube } from "react-icons/fa";
+import Auditlogo from '../Navbar/Famauditlogo.jpeg'
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -16,6 +17,7 @@ const Navbar = () => {
 
   return (
     <>
+
       {/* Desktop Navbar */}
       <div id="navbar">
         <div className="navtop">
@@ -36,7 +38,7 @@ const Navbar = () => {
             <div className="col-xl-2">
               <div className="logo">
                 <Link to="/">
-                  <img src="https://www.famgroupaudit.az/assets/images/auditlogo.png" alt="FAM-Group-Audit-Logo" />
+                  <img src={Auditlogo} alt="FAM-Group-Audit-Logo" />
                 </Link>
               </div>
             </div>
