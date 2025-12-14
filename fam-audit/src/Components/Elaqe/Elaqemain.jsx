@@ -50,9 +50,9 @@ const Elaqemain = () => {
                 <span>Əhməd Rəcəbli küç., 224, 3-cü mərtəbə</span>
                </div>
                 <div className="infobottom">
-                <span>Mob.: (+994 50) 278-72-27</span>
-                <span>Tel.: (+994 12) 565-57-84</span>
-                <span>Email: office@famgroupconstruction.az</span>
+                <span>Mob.: (+994 50) 278-73-53</span>
+                <span>Tel.: (+994 50) 278-71-87 </span>
+                <span>Email: office@famgroupaudit.az</span>
               </div>
                 </div>
             </div>

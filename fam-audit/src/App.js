@@ -19,7 +19,7 @@ import Xidmetler from "./Pages/Xidmetler";
 function App() {
   return (
     <div>
-      <BrowserRouter basename="/FAM-Group-Audit">
+      <BrowserRouter basename="/">
         <ScrollToTop />
         <Layout>
           <Routes>

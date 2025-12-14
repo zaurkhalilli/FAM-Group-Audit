@@ -1,5 +1,6 @@
 import React from 'react'
 import './Hometeqdim.scss'
+import { Link } from 'react-router-dom';
 import { RiTeamFill } from "react-icons/ri";
 import { FaChess } from "react-icons/fa";
 import { FaUserShield } from "react-icons/fa6";
@@ -17,26 +18,28 @@ const Hometeqdim = () => {
     <div className="row g-3">
       <div className="col-xl-3">
         <div className="card-item">
-          <RiTeamFill />
-          <p>PROFESSIONAL KOMANDA</p>
+          <Link to="/ethics"><RiTeamFill /></Link>
+        <Link to="/rehberlik"><p>PROFESSIONAL KOMANDA</p></Link>
+          </div>
+      </div>
+      <div className="col-xl-3">
+        <div className="card-item">
+          <Link to="/ethics"><FaChess /></Link>
+          <br />
+           <Link to="/ethics">KOMPLEKS YANAŞMA</Link>
         </div>
       </div>
       <div className="col-xl-3">
         <div className="card-item">
-          <FaChess />
-          <p>KOMPLEKS YANAŞMA</p>
+          <Link to="/ethics"><FaUserShield /></Link>
+        <br />
+           <Link to="/ethics">ETİBARLILIQ</Link>
         </div>
       </div>
       <div className="col-xl-3">
         <div className="card-item">
-          <FaUserShield />
-          <p>ETİBARLILIQ</p>
-        </div>
-      </div>
-      <div className="col-xl-3">
-        <div className="card-item">
-          <FaHandshake />
-          <p>BÖYÜK TƏCRÜBƏ</p>
+          <Link to="/about"><FaHandshake /></Link>
+          <Link to="/about"><p>BÖYÜK TƏCRÜBƏ</p></Link>
         </div>
       </div>
     </div>

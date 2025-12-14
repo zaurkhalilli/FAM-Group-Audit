@@ -19,6 +19,11 @@
     border-radius: 10px;
     transition: all 0.3s ease;
     cursor: pointer;
+    a{
+      font-weight: 640;
+      color: #004460;
+      text-decoration: none;
+    }
     p{
         font-weight: 640;
     }
@@ -31,7 +36,9 @@
     &:hover {
       background-color: #004460;
       color: white;
-
+      a{
+        color: white;
+      }
       svg {
         color: white;
       }

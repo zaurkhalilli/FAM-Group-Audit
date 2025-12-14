@@ -18,7 +18,7 @@ const Footer = () => {
                 <br />
                 Email: office@famgroupaudit.az
                 <br />
-                Mob.: (+994 50) 289-28-28
+                Mob.: (+994 50) 278-73-53
                 <br />
                 Mob.: (+994 50) 278-71-87
             </p>
