@@ -37,7 +37,7 @@ const Navbar = () => {
           <div className="row g-1">
             <div className="col-xl-2">
               <div className="logo">
-                <Link to="/">
+                <Link to="/FAM-Group-Audit">
                   <img src={Auditlogo} alt="FAM-Group-Audit-Logo" />
                 </Link>
               </div>
@@ -45,7 +45,8 @@ const Navbar = () => {
             <div className="col-xl-10">
               <div className="container">
                 <div className="row">
-                  <div className="col-xl-2"><div className="link"><Link to="/">ANA SƏHİFƏ</Link></div></div>
+                  <div className="col-xl-2">
+                  <div className="link"><Link to="/FAM-Group-Audit">ANA SƏHİFƏ</Link></div></div>
                   <div className="col-xl-2">
                     <div className="nav-drop nav-drop2">
                       <div className="link">
@@ -86,9 +87,10 @@ const Navbar = () => {
       <div className="navbar__tablet">
         <div className="navbar__tablet-menu">
           <div className="navbarlogo">
-            <Link to="/"><img src="https://www.famgroupaudit.az/assets/images/auditlogo.png" alt="FAM-Group-Audit-Logo" /></Link>
+            <img src={Auditlogo} alt="FAM-Group-Audit-Logo" />
           </div>
-          <Link to="/">ANA SƏHİFƏ</Link>
+           <Link to="/FAM-Group-Audit"></Link>
+          <Link to="/FAM-Group-Audit">ANA SƏHİFƏ</Link>
           <div className="tablet-dropdown">
             <Link to="/about">HAQQIMIZDA</Link>
             <div className="tablet-dropdown-menu">
@@ -117,13 +119,13 @@ const Navbar = () => {
       <div className="navbar__mobile">
         <div className="navbar__burger" onClick={toggleMenu}>
           <div className="navbarlogo">
-            <Link to="/"><img src="https://www.famgroupaudit.az/assets/images/auditlogo.png" alt="FAM-Group-Audit-Logo" /></Link>
+             <img src={Auditlogo} alt="FAM-Group-Audit-Logo" />
           </div>
           ☰
         </div>
         {menuOpen && (
           <div className="navbar__mobile-menu">
-            <Link to="/">ANA SƏHİFƏ</Link>
+            <Link to="/FAM-Group-Audit">ANA SƏHİFƏ</Link>
             <Link to="/about">HAQQIMIZDA</Link>
             <Link to="/rehberlik">RƏHBƏRLİK</Link>
             <Link to="/lisenziyalar">LİSENZİYALAR</Link>

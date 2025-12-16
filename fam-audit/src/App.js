@@ -23,7 +23,7 @@ function App() {
         <ScrollToTop />
         <Layout>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/FAM-Group-Audit" element={<Home />} />
             <Route path="/about" element={<Haqqimizda />} />
             <Route path="/rehberlik" element={<Rehberlik />} />
             <Route path="/ethics" element={<Ethics />} />
