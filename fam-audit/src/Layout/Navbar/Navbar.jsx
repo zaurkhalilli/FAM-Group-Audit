@@ -118,7 +118,7 @@ const Navbar = () => {
       <div className="navbar__mobile">
         <div className="navbar__burger" onClick={toggleMenu}>
           <div className="navbarlogo">
-             <img src={Auditlogo} alt="FAM-Group-Audit-Logo" />
+             <Link to="/FAM-Group-Audit"> <img src={Auditlogo} alt="FAM-Group-Audit-Logo" /></Link>
           </div>
           ☰
         </div>
