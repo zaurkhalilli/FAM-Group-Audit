@@ -2,7 +2,16 @@
     padding-top: 70px;
     img{
        width: 100%;
+
+         @media screen and (max-width: 1200px) and (min-width: 768px) {
+        width: 50%;
+}
+         @media (max-width: 768px) {
+    width: 50%;
+    padding-bottom: 50px;
+  }
     }
+   
     .footerright{
         float: right;
         h4{
@@ -16,6 +25,7 @@
             font-size: 1.1rem;
             color: #004460;;
         }
+        
     }
     .copyright{
         text-align: center;
