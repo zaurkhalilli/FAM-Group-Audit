@@ -9,8 +9,8 @@ const Home = () => {
     <div>
       <HomeVideo/>
       <Hometeqdim/>
-      <Homemap/>
       <Homeproyekt/>
+      <Homemap/>
     </div>
   )
 }

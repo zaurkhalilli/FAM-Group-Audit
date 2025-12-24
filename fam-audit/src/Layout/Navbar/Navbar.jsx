@@ -87,9 +87,8 @@ const Navbar = () => {
       <div className="navbar__tablet">
         <div className="navbar__tablet-menu">
           <div className="navbarlogo">
-            <img src={Auditlogo} alt="FAM-Group-Audit-Logo" />
+            <Link to="/FAM-Group-Audit"><img src={Auditlogo} alt="FAM-Group-Audit-Logo" /></Link>
           </div>
-           <Link to="/FAM-Group-Audit"></Link>
           <Link to="/FAM-Group-Audit">ANA SƏHİFƏ</Link>
           <div className="tablet-dropdown">
             <Link to="/about">HAQQIMIZDA</Link>

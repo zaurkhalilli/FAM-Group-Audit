@@ -24,9 +24,6 @@ const VideoHero = () => {
       <div className="dark-overlay"></div>
       <div className="overlay">
         <h1>FAM GROUP AUDIT</h1>
-        <button className="contact-button" onClick={handleClick}>
-          ƏLAQƏ  <MdOutlineConnectWithoutContact />
-        </button>
       </div>
     </div>
   );
