@@ -17,7 +17,6 @@ const Navbar = () => {
 
   return (
     <>
-
       {/* Desktop Navbar */}
       <div id="navbar">
         <div className="navtop">
@@ -107,7 +106,6 @@ const Navbar = () => {
               <Link to="/fifthservice">İstintaq və məhkəmə dəstəyi xidmətləri</Link>
             </div>
           </div>
-          
           <Link to="/lisenziyalar">LİSENZİYALAR</Link>
           <Link to="/elaqe">ƏLAQƏ</Link>
           <Link to="/karyera">KARYERA</Link>
@@ -118,7 +116,7 @@ const Navbar = () => {
       <div className="navbar__mobile">
         <div className="navbar__burger" onClick={toggleMenu}>
           <div className="navbarlogo">
-             <Link to="/FAM-Group-Audit"> <img src={Auditlogo} alt="FAM-Group-Audit-Logo" /></Link>
+             <Link to="/FAM-Group-Audit"><img src={Auditlogo} alt="FAM-Group-Audit-Logo" /></Link>
           </div>
           ☰
         </div>
